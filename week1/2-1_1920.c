@@ -6,7 +6,7 @@ int* buildArray(int* nums, int numsSize, int* returnSize) {
 
     // Put nums array's nums[i] place value to retrun arr.
     for (int i = 0; i < numsSize; i++) {
-        arr[i] = nums[nums[i]];
+        arr[i]          = nums[nums[i]];
     }
     return arr;
 }
